@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+	<information>
+		<name>IMAPBookCovers</name>
+		<version>0.01</version>
+		<author>kikixx</author>
+		<id>IMAPBookCovers</id>
+	</information>
+	<menus>
+		<menu type="json" dynamic="true">menu.json</menu>
+	</menus>
+</extension>

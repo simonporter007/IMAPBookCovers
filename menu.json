@@ -1,0 +1,14 @@
+{
+	"items": [
+		{
+            "name": "IMAPBookCovers",
+            "priority": 1,
+            "action": "python IMAPBookCovers.py",
+            "exitmenu": false,
+            "checked": true,
+            "refresh": false,
+            "status": false,
+            "internal": "status Checking for new books, they will appear shortly . . ."
+        }
+	]
+}

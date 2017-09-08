@@ -1,0 +1,9 @@
+[IMAP]
+server = imap.server.com
+user = username
+pass = password
+
+[KINDLE]
+documents_dir = /mnt/us/documents
+thumbnails_dir = /mnt/us/system/thumbnails
+tmp_dir = /mnt/us/extensions/IMAPBookCovers/tmp
