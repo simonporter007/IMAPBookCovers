@@ -33,7 +33,8 @@ class FetchEmail():
             if part.get('Content-Disposition') is None:
                 continue
 
-            filename = part.get_filename()
+            filename = part.get_filename().replace(' ', '-')
+            filename = ''.join(filename.splitlines())
             att_path = os.path.join(download_folder, filename)
 
             if not os.path.isfile(att_path):
