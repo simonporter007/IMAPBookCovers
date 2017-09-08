@@ -14,6 +14,10 @@ If your use case does not fit this scenario, then you will need to modify the co
 1. Create a new directory on the kindle under `extensions` and call it `IMAPBookCovers`.
 2. Clone or download the repo to your local machine and copy the contents to the new directory.
 
+### Usage
+
+Open KUAL on the kindle and select `IMAPBookCovers` from the list.
+
 ## Built With
 
 * [KindleUnpack](https://github.com/kevinhendricks/KindleUnpack) - For extracting cover image
